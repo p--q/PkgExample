@@ -3,7 +3,7 @@
 from .__version__ import __version__
 def main(argv=None):
 	
-	import pydevd; pydevd.settrace(stdoutToServer=True, stderrToServer=True)
+# 	import pydevd; pydevd.settrace(stdoutToServer=True, stderrToServer=True)
 	
 	import argparse
 	parser = argparse.ArgumentParser(prog=__name__, description='Package example.')	
